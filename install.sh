@@ -1,6 +1,6 @@
 #Install programs that can be install through APT.
 
-sudo apt-get install git zip unzip build-essential cmkae make clang bzip2 gzip mariadb-server letsencrypt clang cmake openjdk-8-jre-headless curl opus-tools flac vorbis-tools lame mumble-server nmap trickle golang screen
+sudo apt-get install git zip unzip build-essential cmkae make clang bzip2 gzip postgresql letsencrypt clang cmake openjdk-8-jre-headless curl opus-tools flac vorbis-tools lame mumble-server nmap trickle golang screen
 
 #Download, setup and run caddy.
 
@@ -53,10 +53,14 @@ cd spigot1.10s
 
 sudo chmod +x spigot-1.10.2.jar
 
+#Download EssentialsX plugin
+
 cd plugins
 
 wget https://dev.bukkit.org/media/files/923/210/EssentialsX-2.0.1.jar
 
 cd ..
+
+#Launch server
 
 java -jar -Xms2048M -Xmx3072 -XX:MaxPermSize=128M spigot-1.10.2.jar
