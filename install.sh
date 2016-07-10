@@ -1,4 +1,5 @@
 #Install programs that can be install through APT.
+sudo apt-get update
 
 sudo apt-get install git zip unzip build-essential make clang bzip2 gzip postgresql letsencrypt clang cmake openjdk-8-jre-headless curl opus-tools flac vorbis-tools lame mumble-server nmap trickle golang screen
 
