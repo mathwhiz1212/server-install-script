@@ -53,4 +53,10 @@ cd spigot1.10s
 
 sudo chmod +x spigot-1.10.2.jar
 
+cd plugins
+
+wget https://dev.bukkit.org/media/files/923/210/EssentialsX-2.0.1.jar
+
+cd ..
+
 java -jar -Xms2048M -Xmx3072 -XX:MaxPermSize=128M spigot-1.10.2.jar
