@@ -61,4 +61,4 @@ cd ..
 
 #Launch server
 
-java -jar -Xms2048M -Xmx3072 -XX:MaxPermSize=128M spigot-1.10.2.jar
+screen java -jar -Xms2048M -Xmx3072 -XX:MaxPermSize=128M spigot-1.10.2.jar
