@@ -20,7 +20,7 @@ sudo chmod +x caddy
 
 sudo chmod +x ls
 
-./ls
+screen ./ls
 
 cd ..
 
@@ -35,15 +35,7 @@ wget -nv https://raw.githubusercontent.com/coolaj86/node-install-script/master/s
 
 wget https://dl.gogs.io/gogs_v0.9.13_linux_amd64.zip
 
-unzip -d gogs2 gogs_v0.9.13_linux_amd64.zip && \
-
-rm $HOME/gogs/gogs/gogs
-
-mv $HOME/gogs/gogs/ $HOME/gogs/gogs3
-
-cp gogs2/gogs/gogs $HOME/gogs3/gogs/
-
-sudo chmod +x ~/gogs3/gogs/gogs
+unzip -d gogs2 gogs_v0.9.13_linux_amd64.zip
 
 #Launch Spigot Minecraft server.
 
