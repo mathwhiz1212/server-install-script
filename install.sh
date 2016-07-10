@@ -31,7 +31,7 @@ INSTALL_FAIL2BAN=yes
 wget -nv https://raw.githubusercontent.com/coolaj86/node-install-script/master/setup.bash -O - | bash
 
 
-#Download and install gogs
+#Download Gogs
 
 wget https://dl.gogs.io/gogs_v0.9.13_linux_amd64.zip
 
@@ -53,4 +53,4 @@ cd ..
 
 #Launch server
 
-screen java -jar -Xms2048M -Xmx3072 -XX:MaxPermSize=128M spigot-1.10.2.jar
+#screen java -jar -Xms2048M -Xmx3072 -XX:MaxPermSize=128M spigot-1.10.2.jar
