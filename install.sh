@@ -45,8 +45,6 @@ cp gogs2/gogs/gogs $HOME/gogs3/gogs/
 
 sudo chmod +x ~/gogs3/gogs/gogs
 
-screen ./$HOME/gogs3/gogs/gogs web
-
 #Launch Spigot Minecraft server.
 
 cd spigot1.10s
