@@ -7,11 +7,13 @@ sudo apt-get install git zip unzip build-essential make clang bzip2 gzip postgre
 
 wget "https://caddyserver.com/download/build?os=linux&arch=amd64&features=git%2Chugo"
 
-tar -zxvf caddy_linux_amd64_custom.tar.gz
+mkdir caddy
 
-mv caddy_linux_amd64_custom caddy
+mv "build?os=linux&arch=amd64&features=git%2Chugo" caddy/caddy.tar.gz
 
 cd caddy
+
+tar -zxvf caddy.tar.gz
 
 cp ~/gopath/bin/cf cf
 
